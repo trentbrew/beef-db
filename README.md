@@ -97,5 +97,3 @@ Check the TODOs in `beef.js` for your next learning challenges:
 3. Make the list command prettier
 4. Add validation
 5. Add a "move" command
-
-Happy coding! 🚀
