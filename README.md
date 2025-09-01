@@ -90,7 +90,7 @@ $ node beef.js update pkg_mf1mlwjh qty 1
 
 ## Next Steps (When You're Ready!)
 
-Check the TODOs in `beef.js` for your next learning challenges:
+Check the TODOs in `beef.js` for next steps:
 
 1. Add command flags (--cut=, --qty=)
 2. Save data to a file
