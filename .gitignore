@@ -4,6 +4,7 @@
 .env.local
 .env.development
 .env.production
+.vscode
 node_modules
 yarn.lock
 pnpm-lock.yaml
