@@ -1,12 +1,12 @@
 .private
+.DS_Store
+.env
+.env.local
+.env.development
+.env.production
 node_modules
 yarn.lock
 pnpm-lock.yaml
 bun.lockb
 bun.lock
 package-lock.json
-.DS_Store
-.env
-.env.local
-.env.development
-.env.production

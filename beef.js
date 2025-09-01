@@ -18,15 +18,11 @@ const id = 'pkg_' + Date.now().toString(36);
 const print = (x) =>
   console.log(typeof x === 'string' ? x : JSON.stringify(x, null, 2));
 
+// Manual/help renderer
+const { renderManual } = require('./utils/manual');
+
 if (!cmd || cmd === 'help') {
-  print(`beef help
-beef add <cut> <qty> <weightLb> <locationId>
-beef read <id>
-beef update <id> qty <newQty>
-beef update <id> weight <newWeightLb>
-beef delete <id>
-beef list
-`);
+  print(renderManual());
   process.exit(0);
 }
 
